@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.ubey-RecordingScreen-count-down-container {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 9999999999999;
+    background-color: rgba(0, 0, 0, 0.2);
+}
